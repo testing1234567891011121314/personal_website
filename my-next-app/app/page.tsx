@@ -5,7 +5,12 @@ export default function Home() {
   return (
     <main>
       <h1>Hello world!</h1>
-      <Link href="/about">About</Link>
+      <div>
+        <Link href="/about">About</Link>
+      </div>
+      <div>
+        <Link href="/users">Users</Link>
+      </div>
     </main>
   );
 }
